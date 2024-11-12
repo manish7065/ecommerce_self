@@ -1,5 +1,8 @@
 from django.shortcuts import render,redirect
 
+
+
+
 # Create your views here.
 def signup(request):
     return render(request,"authentication/signup.html")
@@ -18,4 +21,6 @@ def handlelogout(request):
 
     This view takes a request object as an argument and renders the logout.html template.
     """
-    return redirect('/auth/login')   
+    return redirect('/authcart/login')   
+
+    
