@@ -10,3 +10,5 @@ add any css tag like bg-dark will create the dark background
 create base.html
 and add common part into it like navbar
 this is from system
+
+new trials
